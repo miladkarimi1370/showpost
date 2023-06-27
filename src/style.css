@@ -1,0 +1,60 @@
+:root {
+  --first-color: #606c5d;
+  --second-color: #fff4f4;
+  --third-color: #f7e6c4;
+  --forfth-color: #fea82f;
+  --fifth-color: #8e05c2;
+  --sixth-color: #b70404;
+  --seventh-color: #2f58cd;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(fonts/webfonts/Vazirmatn-SemiBold.woff2);
+}
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir";
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--first-color);
+}
+.font-title {
+  font-size: 16px;
+}
+.font-text {
+  font-size: 14px;
+}
+.font-tiny {
+  font-size: 12px;
+}
+.text-justify {
+  text-align: justify;
+}
+.color-of-text-gold {
+  color: var(--forfth-color);
+}
+.color-of-bg-gold {
+  background-color: var(--forfth-color);
+}
+.color-of-text-blue {
+  color: var(--seventh-color);
+}
+.wrapper-of-arrow {
+  cursor: pointer;
+}
