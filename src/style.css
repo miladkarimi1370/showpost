@@ -58,3 +58,12 @@ body {
 .wrapper-of-arrow {
   cursor: pointer;
 }
+.blue-bg-color {
+  background-color: var(--seventh-color);
+}
+.red-bg-color {
+  background-color: var(--sixth-color);
+}
+.red-color-text{
+  color: var(--sixth-color);
+}

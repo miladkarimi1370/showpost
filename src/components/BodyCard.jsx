@@ -1,5 +1,5 @@
 import React from "react";
-
+import Count from "./Count";
 export default function BodyCard(props) {
   return (
     <>
@@ -19,6 +19,7 @@ export default function BodyCard(props) {
           <p className="card-text font-text text-muted text-justify">
             {props.hero.description}
           </p>
+          <Count id = {props.hero.id} />
         </div>
       </div>
     </>
